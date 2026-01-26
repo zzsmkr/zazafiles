@@ -166,8 +166,13 @@ My windows dotfiles
 ```
 
 
-### 1. Taskbar Clock Customization
+### 2. Taskbar Clock Customization
 ```json
 {"ShowSeconds":1,"TimeFormat":"HH':'mm':'ss tt","DateFormat":"dd-MM-yyyy","WeekdayFormat":"custom","WeekdayFormatCustom":"Sun, Mon, Tue, Wed, Thu, Fri, Sat","TopLine":"CPU %cpu% |GPU %gpu% | RAM %ram% |  %download_speed%  %upload_speed% | %date% %time%","BottomLine":"","MiddleLine":"","TooltipLine":"","TooltipLineMode":"replace","Width":180,"Height":60,"MaxWidth":0,"TextSpacing":0,"DataCollection.NetworkMetricsFormat":"mbsNumberOnly","DataCollection.NetworkMetricsFixedDecimals":-1,"DataCollection.PercentageFormat":"spacePaddingAndSymbol","DataCollection.UpdateInterval":1,"DataCollection.NetworkAdapterName":"","DataCollection.GpuAdapterName":"","MediaPlayer.IgnoredPlayers[0]":"","MediaPlayer.MaxLength":28,"MediaPlayer.NoMediaText":"No media","MediaPlayer.RemoveBrackets":0,"WebContentWeatherLocation":"","WebContentWeatherFormat":"%c 🌡️%t 🌬️%w","WebContentWeatherUnits":"autoDetect","WebContentsUpdateInterval":99999,"TimeStyle.Hidden":0,"TimeStyle.TextColor":"","TimeStyle.TextAlignment":"","TimeStyle.FontSize":0,"TimeStyle.FontFamily":"JetBrainsMono Nerd Font","TimeStyle.FontWeight":"Normal","TimeStyle.FontStyle":"","TimeStyle.FontStretch":"","TimeStyle.CharacterSpacing":0,"DateStyle.Hidden":1,"DateStyle.TextColor":"","DateStyle.TextAlignment":"","DateStyle.FontSize":0,"DateStyle.FontFamily":"","DateStyle.FontWeight":"","DateStyle.FontStyle":"","DateStyle.FontStretch":"","DateStyle.CharacterSpacing":0,"oldTaskbarOnWin11":0}
+```
+
+### 3. Taskbar Height and icon size
+```json
+{"TaskbarHeight":25,"IconSize":20,"TaskbarButtonWidth":26,"IconSizeSmall":16,"TaskbarButtonWidthSmall":32}
 ```
 </details>
